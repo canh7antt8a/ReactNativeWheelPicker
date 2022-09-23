@@ -6,7 +6,7 @@
 import React from 'react'
 import { requireNativeComponent, View } from 'react-native'
 
-const WheelPickerView = requireNativeComponent('WheelPicker', null)
+const WheelPickerView = requireNativeComponent('WheelPicker1', null)
 
 type Props = {
   data: Array<string>,
