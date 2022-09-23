@@ -20,9 +20,9 @@ import com.facebook.react.views.text.ReactFontManager;
 import java.util.ArrayList;
 import java.util.List;
 
-public class WheelPickerManager extends SimpleViewManager<LoopView> implements LoopListener{
+public class WheelPickerManager1 extends SimpleViewManager<LoopView> implements LoopListener{
     LoopView wheelPicker;
-    public static final String REACT_CLASS = "WheelPicker";
+    public static final String REACT_CLASS = "WheelPicker1";
 
     @Override
     public String getName() {
